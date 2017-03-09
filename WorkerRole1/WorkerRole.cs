@@ -36,9 +36,9 @@ namespace WorkerRole1
         private const string MetricsCollectionName = "demometrics";
 
         //mongo user credentials
-        private const string MongoUserName = "mongodemovishi";
-        private const string MongoPassword = "N3rSZw2zbXKmvy4Dc8BH4fphy9YCoxesncWBbPLNKB0IGLz7cs57DISQ1U9Fx1D27H70JTd13hboxDUXD03tmw==";
-        private const string MongoDefaultEndpoint = "mongodemovishi.documents.azure.com";
+        private const string MongoUserName = "";
+        private const string MongoPassword = "";
+        private const string MongoDefaultEndpoint = "";
 
         private TimeSpan MetricsCleanupInterval = new TimeSpan(0,2,0); //clean up metrics every 20 minutes
 
